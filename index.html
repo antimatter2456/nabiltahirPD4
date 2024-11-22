@@ -1,0 +1,101 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabil's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h1 style="color: green;">Welcome to Nabil Tahir's Digital Portfolio!</h1>
+    <p style="font-size: 24px; color:blueviolet;">This page is a brief introduction to my works and experience.</p>
+    <button onclick="location.href='aboutme.html'">Additional Information!</button>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+    <h1 style="color: green;">My Projects</h1>
+    <div class="projects">
+        <div class="project">
+            <h2 style="color: green;">Colourful Tic Tac Toe</h2>
+            <p style="color:blue;">I always wondered how it would feel to play the classic game of 'Tic-Tac-Toe' on a laptop/PC instead of mobile.</p>
+            <p style="color:blue;">So, by making use of a function called 'bestmove', the AI program is made aware of the current game state, and it returns the best possible move it can make on the board to challenge the player</p>
+            <p style="color:blue;">Also, by implementing a 'reset' button, the player is able to freely immerse themselves in the game, either to kill time, or for pure entertainment.</p>
+            <video width="100%" height="300" controls>
+                <source src="videos/tic_tac_toe_showcase.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="project">
+            <h2 style="color: green;">Project 2</h2>
+            <p style="color:blue;">Short description of project 2.</p>
+            <img src="project2.jpg" alt="Project 2 Image">
+        </div>
+
+        <div class="project">
+            <h2 style="color: green;">Project 3</h2>
+            <p style="color:blue;">Short description of project 3.</p>
+            <img src="project3.jpg" alt="Project 3 Image">
+        </div>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h1 style="color: green;">Meet the Developer!</h1>
+            <p style="color:blue;">I'm Muhammad Nabil Bin Md Tahir, a Student of Republic Polytechnic with a passion for coding.</p>
+            <span class="larger-text" style="color: red;">A short and sweet bio of my current work:</span>
+            <ul>
+                <li style="color:blue;">I'm born in Singapore, and I am a Year 2 student enrolled in Digital Design and Development (D3D) at Republic Polytechnic</li>
+                <li style="color:blue;">I mainly do HTML, React Native, & prototype designing</li>
+                <li style="color:blue;">Shown on the right are softwares that I have experienced on with</li>
+
+            </ul>
+        </div>
+        <div class="about-images">
+            <img src="images/pythonlogo.jpg" alt="Python">
+            <img src="images/htmlfive.jpg" alt="HTML 5">
+            <img src="images/cssheet.jpg" alt="CSS 3">
+            <img src="images/js.jpg" alt="JavaScript">
+            <img src="images/adobe ai.jpg" alt="Adobe Illustrator">
+            <img src="images/adobe ps.jpg" alt="Adobe PhotoShop">
+            <img src="images/reactnative.jpg" alt="React Native">
+            <img src="images/sql.jpg" alt="SQL">
+            <img src="images/webstorm.jpg" alt="Webstorm">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h1 style="color: green;">Get in Touch!</h1>
+    <p style="font-size: 24px; color:blue;">Have any questions or want to collaborate?</p>
+    <p style="font-size: 24px; color:blue">You can contact me through the following!</p>
+    <ul>
+        <li><button onclick="location.href='mailto:jpnsgmus@gmail.com'">Email</button></li>
+        <li><button onclick="location.href='tel:+6587845428'">Phone</button></li>
+        <li><button onclick="location.href='https://www.linkedin.com/in/nabil-tahir-6a79562a7/'">LinkedIn</button></li>
+        <li><button onclick="location.href='contact.html'">Get in Touch!</button></li>
+    </ul>
+</section>
+
+</body>
+</html>
